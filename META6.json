@@ -1,7 +1,7 @@
 {
     "name" : "GraphQL",
 
-    "version" : "0.6.1",
+    "version" : "0.6.2",
 
     "source-url" : "https://github.com/CurtTilmes/Perl6-GraphQL.git",
 
@@ -22,7 +22,7 @@
         "GraphQL::Validation"    : "lib/GraphQL/Validation.pm"
     },
 
-    "depends" : [ "JSON::Fast", "Text::Wrap" ],
+    "depends" : [ "JSON::Fast", "Text::Wrap:auth<github:jkramer>" ],
 
     "description" : "Perl6 implementation of GraphQL",
 
